@@ -107,9 +107,9 @@ void loop() {
     delay(500);
     lcd.clear();
     lcd.setCursor(0,0);
-    lcd.print(F("Location:  (IND)"));
+    lcd.print(F("Location:  "));
     lcd.setCursor(0,1);
-    lcd.print(F("Jalahalli East"));
+    lcd.print(F("Enter your location"));
     delay(1200);
 
     digitalWrite(9, LOW);         //turn off led when temp is low
