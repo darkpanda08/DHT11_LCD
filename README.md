@@ -1,32 +1,50 @@
-# DHT11_LCD
-Arduino code to display DHT11 data on screen with alert and custom characters
+# Display DHT11 sensor data on LCD
+This Arduino code is to display the DHT11 or DHT22 data on LCD screen. It also shows alert in form of buzzer, LED and on Screen alert. This code consists of some custom characters for the LCD to look good.
 
-# Foobar
 
-Foobar is a Python library for dealing with word pluralization.
+## Requirements
+The items required for this project are:
+- Arduino Uno (You can use any other arduino board also but connection should be ade according to that board.) Here Arduino refers to Arduino Uno.
+- 16x2 LCD display
+- 10k Potentiometer
+- DHT11 Sensor (or DHT22)
+- LED
+- Jumper Wires
 
-## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Connections
+1. Identify the pins of your 16x2 LCD Display according to the datasheet.
 
-```bash
-pip install foobar
-```
+2. Connect Pin1 of LCD to ground rail of breadboard.
 
-## Usage
+3. Connect Pin2 of LCD to positive rail of breadboard.
 
-```python
-import foobar
+4. Connect Pin3 of LCD to 10k Potentiometer middle pin. Connect other two pins of potentiometer to positive and ground rail.
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+5. Connect Pin4 of LCD to Pin12 of Arduino.
+
+6. Connect Pin5 of LCD to ground rail of breadboard.
+
+7. Connect Pin6 of LCD to Pin11 of Arduino.
+
+8. Connect Pin16 of LCD to ground rail of breadboard.
+
+9. Connect Pin15 of LCD to 10k Potentiometer middle pin.  Connect other two pins of potentiometer to positive and ground rail.
+
+10. Connect Pin14 of LCD to Pin2 of Arduino.
+
+11. Connect Pin13 of LCD to Pin3 of Arduino.
+
+12. Connect Pin12 of LCD to Pin4 of Arduino.
+
+13. Connect Pin11 of LCD to Pin5 of Arduino.
+
+**Here the connections to Arduino is done with Digitals pins only. No Analog Pin is used.
+
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Make the connections as written above. Connection diagram is also available in repository.
 
-Please make sure to update tests as appropriate.
+Connect the Arduino to your PC via USB and upload the code provided. You can make changes to the code like you can mention the location in the code.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Once the code is uploaded, vary both the potentiometer until the diplay is appropriate for you.
