@@ -42,7 +42,7 @@ The items required for this project are:
 **Here the connections to Arduino is done with Digitals pins only. No Analog Pin is used.
 
 
-## Contributing
+## Installation
 Make the connections as written above. Connection diagram is also available in repository.
 
 Connect the Arduino to your PC via USB and upload the code provided. You can make changes to the code like you can mention the location in the code.
