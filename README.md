@@ -45,6 +45,6 @@ The items required for this project are:
 ## Installation
 Make the connections as written above. Connection diagram is also available in repository.
 
-Connect the Arduino to your PC via USB and upload the code provided. You can make changes to the code like you can mention the location in the code.
+Connect the Arduino to your PC via USB and upload the code provided in file named dht11_lcd.ino. You can make changes to the code like you can mention the location in the code.
 
 Once the code is uploaded, vary both the potentiometer until the diplay is appropriate for you.
