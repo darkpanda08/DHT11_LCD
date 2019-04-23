@@ -6,7 +6,7 @@ This Arduino code is to display the DHT11 or DHT22 data on LCD screen. It also s
 The items required for this project are:
 - Arduino Uno (You can use any other arduino board also but connection should be ade according to that board.) Here Arduino refers to Arduino Uno.
 - 16x2 LCD display
-- 10k Potentiometer
+- 10k Potentiometers
 - DHT11 Sensor (or DHT22)
 - LED
 - Jumper Wires
@@ -29,7 +29,7 @@ The items required for this project are:
 
 8. Connect Pin16 of LCD to ground rail of breadboard.
 
-9. Connect Pin15 of LCD to 10k Potentiometer middle pin.  Connect other two pins of potentiometer to positive and ground rail. (For Backlight)
+9. Connect Pin15 of LCD to 10k Potentiometer middle pin.  Connect other two pins of potentiometer to positive and ground rail. (For Backlight) If you don't want to change the brightness directly connect it to positive rail.
 
 10. Connect Pin14 of LCD to Pin2 of Arduino.
 
