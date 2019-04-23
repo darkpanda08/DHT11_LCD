@@ -19,7 +19,7 @@ The items required for this project are:
 
 3. Connect Pin2 of LCD to positive rail of breadboard.
 
-4. Connect Pin3 of LCD to 10k Potentiometer middle pin. Connect other two pins of potentiometer to positive and ground rail.
+4. Connect Pin3 of LCD to 10k Potentiometer middle pin. Connect other two pins of potentiometer to positive and ground rail. (For Contrast)
 
 5. Connect Pin4 of LCD to Pin12 of Arduino.
 
@@ -29,7 +29,7 @@ The items required for this project are:
 
 8. Connect Pin16 of LCD to ground rail of breadboard.
 
-9. Connect Pin15 of LCD to 10k Potentiometer middle pin.  Connect other two pins of potentiometer to positive and ground rail.
+9. Connect Pin15 of LCD to 10k Potentiometer middle pin.  Connect other two pins of potentiometer to positive and ground rail. (For Backlight)
 
 10. Connect Pin14 of LCD to Pin2 of Arduino.
 
