@@ -43,7 +43,7 @@ The items required for this project are:
 
 
 ## Installation
-Make the connections as written above. Connection diagram is also available in repository.
+Make the connections as written above. Connection diagram named Lcd_dht11.png is also uploaded in repository.
 
 Connect the Arduino to your PC via USB and upload the code provided in file named dht11_lcd.ino. You can make changes to the code like you can mention the location in the code. Download LiquidCrystal.h library before compiling the code.
 
