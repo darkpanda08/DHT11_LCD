@@ -48,3 +48,5 @@ Make the connections as written above. Connection diagram is also available in r
 Connect the Arduino to your PC via USB and upload the code provided in file named dht11_lcd.ino. You can make changes to the code like you can mention the location in the code. Download LiquidCrystal.h library before compiling the code.
 
 Once the code is uploaded, vary both the potentiometer until the diplay is appropriate for you.
+
+ ----Vineet Ranjan  (Darkpanda)
